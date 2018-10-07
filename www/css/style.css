@@ -227,5 +227,30 @@ i {
 .code a:hover{
 	background:#00CD6B;
 	color:#fff;
-	border: solid 2px #00CD6B;;
+	border: solid 2px #00CD6B;
+}
+
+.social{
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: space-between;
+}
+
+.basic{
+	font-size: 18px;
+	line-height: 26px;
+	color:#4F6366;
+}
+
+.social i{
+	color:#4F6366;
+	padding-right: 13px;
+}
+
+.social i:hover{
+	color:#00CD6B;
+	
 }
